@@ -178,13 +178,6 @@ class Connection(object):
         finally:
             cursor.close()
 
-    def escape_string(self, string):
-        """Exposes the MySQL escape_string function
-        Escapes the given string for saving into the db
-        """
-        import MySQLdb
-        return MySQLdb.escape_string(string)
-
     def _ensure_connected(self):
         # Mysql by default closes client connections that are idle for
         # 8 hours, but the client library does not report this fact until

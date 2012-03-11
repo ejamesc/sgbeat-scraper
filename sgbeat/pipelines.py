@@ -20,18 +20,16 @@ class SgbeatPipeline(object):
     					database = MYSQL_DB_NAME,
     					user = MYSQL_USER_NAME,
     					password = MYSQL_PASSWORD)
-
-    	tweet = db.escape_string(item["tweet"])
-
-    	user = db.get("SELECT id from users WHERE username='%s';" % item["username"])
-    	twt = db.get("SELECT * from tweets WHERE tweet='%s';" % tweet)
+    	tweet = item["tweet"]
+    	user = db.get("SELECT id FROM users WHERE username=%s", item["username"])
+    	twt = db.get("SELECT * FROM tweets WHERE tweet=%s", tweet)
     	if not twt:
     		if user:
-    			db.execute("INSERT into tweets (user, tweet) VALUES ('%s', '%s');" % (user["id"], tweet))
+    			db.execute("INSERT into tweets (user, tweet) VALUES (%s, %s)", user["id"], tweet)
     		else:
-    			db.execute("INSERT into users (username) VALUES ('%s');" % item["username"])
-    			user = db.get("SELECT id from users WHERE username='%s';" % item["username"])
-    			db.execute("INSERT into tweets (user, tweet) VALUES ('%s', '%s');" % (user["id"], tweet))
+    			db.execute("INSERT into users (username) VALUES (%s)", item["username"])
+    			user = db.get("SELECT id FROM users WHERE username=%s", item["username"])
+    			db.execute("INSERT into tweets (user, tweet) VALUES (%s, %s)", user["id"], tweet)
 
     	db.close()
         return item
