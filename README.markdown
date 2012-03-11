@@ -1,11 +1,12 @@
 sgBeat Scraper
 ==============
 
-This is a Scrapy-based scraper for sgbeat.com. Is designed to grab tweets and store it in a MySQL database with schema as defined in schema.sql. Included is Tornado's database wrapper.
+This is a Scrapy-based scraper for sgbeat.com. Is designed to grab tweets and store it in a MySQL database with schema as defined in schema.sql. Included in database.py is Tornado's MySQL database wrapper.
 
 Dependencies:
 
-	Scrapy, MySQLdb
+	Scrapy
+	MySQLdb (the Python wrapper for MySQL)
 
 Remember to create a details.py file with the following details:
 
