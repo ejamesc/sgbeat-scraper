@@ -16,6 +16,7 @@ def strip_tweet(value):
 		I love you.
 	"""
 	res = re.sub(r'^\w*:', '', value)
+	res = re.sub(r'\d* hr, \d* min ago via \w*$', '', res)
 	return re.sub(r'\d* min ago via \w*$', '', res)
 
 class SGbeatSpider(BaseSpider):
