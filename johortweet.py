@@ -14,9 +14,9 @@ from details import USERNAME, PASSWORD
 locations = ["103.55,1.45", "103.87,1.63"]
 
 
-with tweetstream.FilterStream(USERNAME,PASSWORD,locations=locations) as stream:
-	for tweet in stream:
-		print "==================="
-		print tweet["text"]
-		print tweet["user"]["screen_name"]
-		print "(%s)" % tweet["place"]["full_name"]
+stream = tweetstream.FilterStream(USERNAME,PASSWORD,locations=locations)
+for tweet in stream:
+	print "==================="
+	print tweet["text"]
+	print tweet["user"]["screen_name"]
+	print "(%s)" % tweet["place"]["full_name"]
