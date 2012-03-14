@@ -3,7 +3,15 @@
 """
 
 import tweetstream
-from details import USERNAME, PASSWORD
+from sgbeat.database import Connection
+from details import (
+            USERNAME,
+            PASSWORD,
+            HOST_NAME,
+            MYSQL_DB_NAME,
+            MYSQL_USER_NAME,
+            MYSQL_PASSWORD
+        )
 
 #note that coordinate pairs are long/lat not lat/long
 #Singapore coordinates
@@ -12,14 +20,32 @@ from details import USERNAME, PASSWORD
 #Johor coordinates
 locations = ["103.55,1.45", "103.87,1.63"]
 
-
 with tweetstream.FilterStream(
-				USERNAME,
-				PASSWORD,
-				locations=locations) as stream:
-	for tweet in stream:
-		print "==================="
-		print tweet["text"]
-		print tweet["user"]["screen_name"]
-		print "(%s)" % tweet["place"]["full_name"]
+                USERNAME,
+                PASSWORD,
+                locations=locations) as stream:
+    for tweet in stream:
+        db = Connection(host = HOST_NAME,
+                        database = MYSQL_DB_NAME,
+                        user = MYSQL_USER_NAME,
+                        password = MYSQL_PASSWORD
+                )
+        username = tweet["user"]["screen_name"]
+        text = tweet["text"]
+        loc = tweet["place"]["full_name"]
+
+        user = db.get("SELECT id FROM users WHERE username=%s", username)
+        if user:
+            db.execute("INSERT into tweets (user, tweet, location) VALUES (%s, %s, %s)", user["id"], text, loc)
+        else:
+            db.execute("INSERT into users (username) VALUES (%s)", username)
+            user = db.get("SELECT id FROM users WHERE username=%s", username)
+            db.execute("INSERT into tweets (user, tweet, location) VALUES (%s, %s, %s)", user["id"], text, loc)
+
+        db.close()
+
+        print "==================="
+        print text
+        print username
+        print "(%s)" % loc
 
