@@ -44,8 +44,8 @@ with tweetstream.FilterStream(
 
         db.close()
 
-        print "==================="
-        print text
-        print username
-        print "(%s)" % loc
+        #print "==================="
+        #print text
+        #print username
+        #print "(%s)" % loc
 
