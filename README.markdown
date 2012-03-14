@@ -8,7 +8,7 @@ Dependencies:
 	Scrapy
 	MySQLdb (the Python wrapper for MySQL)
 
-Remember to create a details.py file with the following details:
+Remember to create a details.py file in /sgbeat/ with the following details:
 
 	HOST_NAME = ""
 	MYSQL_DB_NAME = ""
@@ -16,3 +16,9 @@ Remember to create a details.py file with the following details:
 	MYSQL_PASSWORD = ""
 
 This code is used in a IEM2201D research project - to build a classifier for Singaporean vs Malaysian tweets. Due to sgBeat's unique nature, all tweets pushed to the site are Singaporean, thus making for a good source for a Singaporean corpus.
+
+A separate script to grab Malaysian tweets via Twitter's streaming API exists in johortweet.py. Depedencies:
+
+	tweetstream
+
+Remember to supply a details.py in /, containing a Twitter USERNAME, PASSWORD and database details, as above.
