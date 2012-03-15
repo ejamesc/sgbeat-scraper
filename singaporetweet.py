@@ -5,8 +5,8 @@
 import tweetstream
 from sgbeat.database import Connection
 from details import (
-            USERNAME,
-            PASSWORD,
+            SECOND_USERNAME,
+            SECOND_PASSWORD,
             HOST_NAME,
             SG_MYSQL_DB_NAME,
             SG_MYSQL_USER_NAME,
@@ -21,8 +21,8 @@ locations = ["103.61,1.22","104.01356,1.456674"]
 #locations = ["103.55,1.45", "103.87,1.63"]
 
 with tweetstream.FilterStream(
-                USERNAME,
-                PASSWORD,
+                SECOND_USERNAME,
+                SECOND_PASSWORD,
                 locations=locations) as stream:
     for tweet in stream:
         db = Connection(host = HOST_NAME,
