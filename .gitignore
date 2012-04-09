@@ -1,3 +1,5 @@
 .DS_Store
 details.py
 *.pyc
+*.swp
+*.un~
