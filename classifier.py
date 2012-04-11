@@ -21,7 +21,7 @@ def bigramify(tweets):
     """Convert list of tweets into lists of tuples with bigrams, loc
     """
     all_bigrams = []
-    [all_bigrams.append((nltk.bigrams(w), l)) for w, l in tweets]
+    [all_bigrams.append((nltk.bigrams([c for c in w if c != ('','')]), l)) for w, l in tweets]
     #print all_bigrams
     return all_bigrams
 
@@ -81,7 +81,7 @@ random.shuffle(jb_tweets)
 
 tweets = bigramify(filter_words(sg_tweets + jb_tweets))
 test = bigramify(filter_words(sg_tweets[:250] + jb_tweets[:250]))
-
+#print tweets
 
 word_features = get_word_features(get_bigrams_in_tweets(tweets))[:2000]
 training_set = apply_features(extract_features, tweets)
