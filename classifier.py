@@ -40,7 +40,7 @@ def filter_words(tweets):
     """
     res = []
     for (words, loc) in tweets:
-        words_filtered = [w.lower() for w in words.split()] 
+        words_filtered = [w.lower() for w in words.split() if w != "RT"] 
         words_filtered = [''.join(c for c in w if c not in string.punctuation) for w in words_filtered]
         words_filtered = filter(lambda x: x not in stopwords.words('english'), words_filtered)
         res.append((words_filtered, loc))
@@ -80,8 +80,8 @@ tweets = []
 random.shuffle(sg_tweets)
 random.shuffle(jb_tweets)
 
-tweets = bigramify(filter_words(sg_tweets[1100:] + jb_tweets[1100:]))
-test = bigramify(filter_words(sg_tweets[-220:] + jb_tweets[-220:]))
+tweets = bigramify(filter_words(sg_tweets[3500:] + jb_tweets[1100:]))
+test = bigramify(filter_words(sg_tweets[-700:] + jb_tweets[-220:]))
 print len(test)
 
 word_features = get_word_features(get_bigrams_in_tweets(tweets))[:2000]

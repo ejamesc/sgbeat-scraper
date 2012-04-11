@@ -16,3 +16,7 @@ Determined manually that they were from Johor Bahru. A combination of reading tw
 Painstaking process.
 
 Things I've used to verify: a picture of a NTUC plastic bag on Twitter; a foursquare checkin to a Singaporean restaurant, a picture of 'Loyang Fire Post'
+[1] GORI, M. & SCARSELLI, F. (1998) Are multilayer perceptrons adequate for pattern recognition and verification? Ieee Transactions on Pattern Analysis and
+Machine Intelligence, 20, 1121-1132
+[2] GIACINTO, G., PERDISCI, R., DEL RIO, M. & ROLI, F. (2008) Intrusion detection in computer networks by a modular ensemble of one-class classifiers.
+Information Fusion, 9, 69-82.
