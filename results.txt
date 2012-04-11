@@ -1,0 +1,33 @@
+contains(followers) = True               JB : SG     =     96.8 : 1.0
+      contains(friendly) = True               JB : SG     =     96.8 : 1.0
+         contains(too!!) = True               JB : SG     =     58.1 : 1.0
+       contains(control) = True               JB : SG     =     58.1 : 1.0
+          contains(tahu) = True               JB : SG     =     58.1 : 1.0
+          contains(okey) = True               JB : SG     =     58.1 : 1.0
+          contains(skrg) = True               JB : SG     =     58.1 : 1.0
+       contains(twitcon) = True               JB : SG     =     58.1 : 1.0
+           contains(ajk) = True               JB : SG     =     58.1 : 1.0
+          contains(dear) = True               JB : SG     =     58.1 : 1.0
+           contains(fiq) = True               JB : SG     =     34.8 : 1.0
+       contains(craving) = True               JB : SG     =     34.8 : 1.0
+          contains(lagu) = True               JB : SG     =     34.8 : 1.0
+           contains(mad) = True               JB : SG     =     34.8 : 1.0
+contains(assalamualaikum) = True               JB : SG     =     34.8 : 1.0
+           contains(syg) = True               JB : SG     =     34.8 : 1.0
+         contains(mouth) = True               JB : SG     =     34.8 : 1.0
+           contains(me?) = True               JB : SG     =     32.3 : 1.0
+          contains(baru) = True               JB : SG     =     24.9 : 1.0
+           contains(kan) = True               JB : SG     =     24.9 : 1.0
+        contains(again.) = True               JB : SG     =     24.9 : 1.0
+          contains(fall) = True               JB : SG     =     24.9 : 1.0
+           contains(:))) = True               JB : SG     =     24.9 : 1.0
+         contains(okay.) = True               JB : SG     =     19.4 : 1.0
+         contains(hello) = True               JB : SG     =     19.4 : 1.0
+         contains(wants) = True               JB : SG     =     19.4 : 1.0
+           contains(nak) = True               JB : SG     =     19.4 : 1.0
+           contains(hey) = True               JB : SG     =     19.4 : 1.0
+       contains(awesome) = True               JB : SG     =     19.4 : 1.0
+         contains(feels) = True               JB : SG     =     15.8 : 1.0
+          contains(lols) = True               JB : SG     =     15.8 : 1.0
+     contains(goodnight) = True               JB : SG     =     15.8 : 1.0
+
