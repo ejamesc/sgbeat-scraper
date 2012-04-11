@@ -61,7 +61,8 @@ hash = re.compile("#\w+")
 
 for u in sg_users:
     curr = db.query("SELECT tweet FROM tweets WHERE user=%s", u["id"])
-    curr = [hash.sub("", mtn.sub("", t['tweet'])).strip() for t in curr] # get rid of mentions
+    # get rid of mentions and hashtags
+    curr = [hash.sub("", mtn.sub("", t['tweet'])).strip() for t in curr]
     [sg_tweets.append((t, "SG")) for t in curr]
 
 for u in jb_users:
@@ -79,9 +80,9 @@ tweets = []
 random.shuffle(sg_tweets)
 random.shuffle(jb_tweets)
 
-tweets = bigramify(filter_words(sg_tweets + jb_tweets))
-test = bigramify(filter_words(sg_tweets[:250] + jb_tweets[:250]))
-#print tweets
+tweets = bigramify(filter_words(sg_tweets[1100:] + jb_tweets[1100:]))
+test = bigramify(filter_words(sg_tweets[-220:] + jb_tweets[-220:]))
+print len(test)
 
 word_features = get_word_features(get_bigrams_in_tweets(tweets))[:2000]
 training_set = apply_features(extract_features, tweets)
