@@ -20,3 +20,6 @@ Things I've used to verify: a picture of a NTUC plastic bag on Twitter; a foursq
 Machine Intelligence, 20, 1121-1132
 [2] GIACINTO, G., PERDISCI, R., DEL RIO, M. & ROLI, F. (2008) Intrusion detection in computer networks by a modular ensemble of one-class classifiers.
 Information Fusion, 9, 69-82.
+
+SELECT a.username, a.id, a.country FROM users a, tweets t WHERE a.id = t.user AND a.country is null AND t.location="Plentong, Johor Bahru" GROUP BY a.id;
+

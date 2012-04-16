@@ -1,33 +1,204 @@
-contains(followers) = True               JB : SG     =     96.8 : 1.0
-      contains(friendly) = True               JB : SG     =     96.8 : 1.0
-         contains(too!!) = True               JB : SG     =     58.1 : 1.0
-       contains(control) = True               JB : SG     =     58.1 : 1.0
-          contains(tahu) = True               JB : SG     =     58.1 : 1.0
-          contains(okey) = True               JB : SG     =     58.1 : 1.0
-          contains(skrg) = True               JB : SG     =     58.1 : 1.0
-       contains(twitcon) = True               JB : SG     =     58.1 : 1.0
-           contains(ajk) = True               JB : SG     =     58.1 : 1.0
-          contains(dear) = True               JB : SG     =     58.1 : 1.0
-           contains(fiq) = True               JB : SG     =     34.8 : 1.0
-       contains(craving) = True               JB : SG     =     34.8 : 1.0
-          contains(lagu) = True               JB : SG     =     34.8 : 1.0
-           contains(mad) = True               JB : SG     =     34.8 : 1.0
-contains(assalamualaikum) = True               JB : SG     =     34.8 : 1.0
-           contains(syg) = True               JB : SG     =     34.8 : 1.0
-         contains(mouth) = True               JB : SG     =     34.8 : 1.0
-           contains(me?) = True               JB : SG     =     32.3 : 1.0
-          contains(baru) = True               JB : SG     =     24.9 : 1.0
-           contains(kan) = True               JB : SG     =     24.9 : 1.0
-        contains(again.) = True               JB : SG     =     24.9 : 1.0
-          contains(fall) = True               JB : SG     =     24.9 : 1.0
-           contains(:))) = True               JB : SG     =     24.9 : 1.0
-         contains(okay.) = True               JB : SG     =     19.4 : 1.0
-         contains(hello) = True               JB : SG     =     19.4 : 1.0
-         contains(wants) = True               JB : SG     =     19.4 : 1.0
-           contains(nak) = True               JB : SG     =     19.4 : 1.0
-           contains(hey) = True               JB : SG     =     19.4 : 1.0
-       contains(awesome) = True               JB : SG     =     19.4 : 1.0
-         contains(feels) = True               JB : SG     =     15.8 : 1.0
-          contains(lols) = True               JB : SG     =     15.8 : 1.0
-     contains(goodnight) = True               JB : SG     =     15.8 : 1.0
+Singapore 4048
+Johor 1487
+Most Informative Features
+          contains(ni, ) = True               JB : SG     =     12.7 : 1.0
+      contains(mcm, knl) = True               JB : SG     =      7.6 : 1.0
+       contains(u, dont) = True               JB : SG     =      7.6 : 1.0
+         contains(, man) = True               JB : SG     =      7.6 : 1.0
+    contains(ni, hahaha) = True               JB : SG     =      7.6 : 1.0
+   contains(followers, ) = True               JB : SG     =      7.6 : 1.0
+       contains(tak, pe) = True               JB : SG     =      7.6 : 1.0
+     contains(long, day) = True               JB : SG     =      7.6 : 1.0
+contains(quarter, finals) = True               JB : SG     =      7.6 : 1.0
+   contains(want, sleep) = True               JB : SG     =      7.6 : 1.0
+    contains(tak, reply) = True               JB : SG     =      7.6 : 1.0
+   contains(, goodnight) = True               JB : SG     =      7.6 : 1.0
+    contains(nice, girl) = True               JB : SG     =      7.6 : 1.0
+     contains(working, ) = True               JB : SG     =      7.6 : 1.0
+      contains(eh, haha) = True               JB : SG     =      7.6 : 1.0
+       contains(ah, tak) = True               JB : SG     =      7.6 : 1.0
+    contains(ah, hahaha) = True               JB : SG     =      7.6 : 1.0
+          contains(tu, ) = True               JB : SG     =      7.6 : 1.0
+        contains(coke, ) = True               JB : SG     =      7.6 : 1.0
+    contains(good, time) = True               JB : SG     =      7.6 : 1.0
+         contains(sch, ) = True               JB : SG     =      7.6 : 1.0
+      contains(da, kene) = True               JB : SG     =      7.6 : 1.0
+        contains(guys, ) = True               JB : SG     =      7.6 : 1.0
+        contains(, asal) = True               JB : SG     =      7.6 : 1.0
+  contains(beat, napoli) = True               JB : SG     =      7.6 : 1.0
+      contains(dia, dah) = True               JB : SG     =      7.6 : 1.0
+contains(basketball, court) = True               JB : SG     =      7.6 : 1.0
+        contains(, left) = True               JB : SG     =      7.6 : 1.0
+        contains(la, ni) = True               JB : SG     =      7.6 : 1.0
+    contains(go, school) = True               JB : SG     =      7.6 : 1.0
+     contains(friends, ) = True               JB : SG     =      7.6 : 1.0
+       contains(marry, ) = True               JB : SG     =      7.6 : 1.0
+Accuracy:  0.540909090909
+
+real	1m23.045s
+user	1m13.079s
+sys	0m1.979s
+
+Singapore 4047
+Johor 1401
+1200: and 1200:
+test set: -220: and -220:
+Most Informative Features
+          contains(lahh) = True               JB : SG     =     19.7 : 1.0
+           contains(org) = True               JB : SG     =     13.4 : 1.0
+           contains(apa) = True               JB : SG     =     13.4 : 1.0
+           contains(jgn) = True               JB : SG     =     13.4 : 1.0
+            contains(ye) = True               JB : SG     =     11.8 : 1.0
+          contains(awak) = True               JB : SG     =     11.8 : 1.0
+             contains(c) = True               JB : SG     =     11.8 : 1.0
+        contains(single) = True               JB : SG     =     11.8 : 1.0
+          contains(tahu) = True               JB : SG     =     11.8 : 1.0
+          contains(kite) = True               JB : SG     =     11.8 : 1.0
+           contains(laa) = True               JB : SG     =     11.8 : 1.0
+           contains(ada) = True               JB : SG     =     10.2 : 1.0
+           contains(got) = True               SG : JB     =      9.8 : 1.0
+         contains(nanti) = True               JB : SG     =      9.2 : 1.0
+           contains(tgh) = True               JB : SG     =      9.2 : 1.0
+          contains(kita) = True               JB : SG     =      9.2 : 1.0
+          contains(okey) = True               JB : SG     =      9.2 : 1.0
+       contains(twitcon) = True               JB : SG     =      9.2 : 1.0
+          contains(tapi) = True               JB : SG     =      9.2 : 1.0
+        contains(condom) = True               JB : SG     =      9.2 : 1.0
+           contains(itu) = True               JB : SG     =      9.2 : 1.0
+         contains(boleh) = True               JB : SG     =      9.2 : 1.0
+       contains(tuition) = True               JB : SG     =      9.2 : 1.0
+       contains(mention) = True               JB : SG     =      9.2 : 1.0
+         contains(rindu) = True               JB : SG     =      9.2 : 1.0
+         contains(nenek) = True               JB : SG     =      9.2 : 1.0
+          contains(pegi) = True               JB : SG     =      9.2 : 1.0
+            contains(kn) = True               JB : SG     =      9.2 : 1.0
+        contains(beauty) = True               JB : SG     =      9.2 : 1.0
+  contains(hahahahahaha) = True               JB : SG     =      9.2 : 1.0
+           contains(sia) = True               SG : JB     =      8.7 : 1.0
+          contains(busy) = True               JB : SG     =      8.7 : 1.0
+Accuracy:  0.68
+
+real	1m34.246s
+user	1m29.014s
+sys	0m2.207s
+
+COOL RUN
+tweets = filter_words(sg_tweets[3500:] + jb_tweets[1100:])
+test = filter_words(sg_tweets[-220:] + jb_tweets[-220:])
+
+Most Informative Features
+           contains(dia) = True               JB : SG     =      8.0 : 1.0
+        contains(thanks) = True               JB : SG     =      5.9 : 1.0
+            contains(ni) = True               JB : SG     =      5.9 : 1.0
+         contains(think) = True               SG : JB     =      5.9 : 1.0
+           contains(tak) = True               JB : SG     =      5.9 : 1.0
+             contains(♥) = True               JB : SG     =      5.5 : 1.0
+            contains(ke) = True               JB : SG     =      5.2 : 1.0
+            contains(nk) = True               JB : SG     =      5.2 : 1.0
+           contains(get) = True               SG : JB     =      4.9 : 1.0
+            contains(tu) = True               JB : SG     =      4.8 : 1.0
+           contains(say) = True               SG : JB     =      4.7 : 1.0
+           contains(omg) = True               SG : JB     =      4.5 : 1.0
+           contains(pon) = True               JB : SG     =      4.2 : 1.0
+           contains(kan) = True               JB : SG     =      4.2 : 1.0
+             contains(5) = True               JB : SG     =      4.2 : 1.0
+           contains(apa) = True               JB : SG     =      4.2 : 1.0
+             contains(g) = True               JB : SG     =      4.2 : 1.0
+       contains(tonight) = True               JB : SG     =      4.2 : 1.0
+           contains(got) = True               SG : JB     =      4.1 : 1.0
+          contains(home) = True               SG : JB     =      4.0 : 1.0
+          contains(also) = True               SG : JB     =      4.0 : 1.0
+         contains(never) = True               SG : JB     =      4.0 : 1.0
+          contains(want) = True               SG : JB     =      3.7 : 1.0
+            contains(uh) = True               SG : JB     =      3.5 : 1.0
+          contains(good) = True               SG : JB     =      3.5 : 1.0
+         contains(sleep) = True               SG : JB     =      3.5 : 1.0
+           contains(sia) = True               SG : JB     =      3.5 : 1.0
+          contains(left) = True               JB : SG     =      3.3 : 1.0
+          contains(mane) = True               JB : SG     =      3.3 : 1.0
+         contains(every) = True               JB : SG     =      3.3 : 1.0
+        contains(update) = True               JB : SG     =      3.3 : 1.0
+          contains(mana) = True               JB : SG     =      3.3 : 1.0
+None
+Accuracy:  0.840909090909
+
+real	0m34.050s
+
+
+
+Most Informative Features
+         contains(lah, ) = True               SG : JB     =      3.8 : 1.0
+          contains(ke, ) = True               JB : SG     =      2.7 : 1.0
+           contains(d, ) = True               JB : SG     =      2.7 : 1.0
+        contains(, keep) = True               JB : SG     =      2.7 : 1.0
+ contains(good, morning) = True               JB : SG     =      2.7 : 1.0
+        contains(mine, ) = True               JB : SG     =      2.7 : 1.0
+        contains(, haha) = True               JB : SG     =      2.6 : 1.0
+    contains(dont, like) = True               SG : JB     =      2.2 : 1.0
+          contains(, im) = True               SG : JB     =      1.8 : 1.0
+            contains(, ) = True               SG : JB     =      1.7 : 1.0
+         contains(day, ) = True               JB : SG     =      1.6 : 1.0
+        contains(, good) = True               JB : SG     =      1.6 : 1.0
+     contains(ya, allah) = True               JB : SG     =      1.6 : 1.0
+    contains(ni, hahaha) = True               JB : SG     =      1.6 : 1.0
+         contains(die, ) = True               JB : SG     =      1.6 : 1.0
+     contains(, nothing) = True               JB : SG     =      1.6 : 1.0
+          contains(im, ) = True               JB : SG     =      1.6 : 1.0
+       contains(mcm, nk) = True               JB : SG     =      1.6 : 1.0
+        contains(damn, ) = True               JB : SG     =      1.6 : 1.0
+        contains(babe, ) = True               JB : SG     =      1.6 : 1.0
+         contains(bro, ) = True               JB : SG     =      1.6 : 1.0
+         contains(end, ) = True               JB : SG     =      1.6 : 1.0
+    contains(back, home) = True               JB : SG     =      1.6 : 1.0
+      contains(im, fine) = True               JB : SG     =      1.6 : 1.0
+    contains(hahahaha, ) = True               JB : SG     =      1.6 : 1.0
+       contains(, kalau) = True               JB : SG     =      1.6 : 1.0
+  contains(think, youre) = True               JB : SG     =      1.6 : 1.0
+         contains(tak, ) = True               JB : SG     =      1.6 : 1.0
+contains(remember, everything) = True               JB : SG     =      1.6 : 1.0
+       contains(ill, go) = True               JB : SG     =      1.6 : 1.0
+           contains(, d) = True               JB : SG     =      1.6 : 1.0
+         contains(, sex) = True               JB : SG     =      1.6 : 1.0
+None
+Accuracy:  0.870652173913
+
+real	0m54.084s
+
+Most Informative Features
+      contains(please, ) = True               JB : SG     =      2.7 : 1.0
+     contains(wanna, go) = True               JB : SG     =      2.7 : 1.0
+  contains(, appreciate) = True               JB : SG     =      2.7 : 1.0
+ contains(good, morning) = True               JB : SG     =      2.7 : 1.0
+          contains(, im) = True               SG : JB     =      2.2 : 1.0
+        contains(, dont) = True               SG : JB     =      2.2 : 1.0
+        contains(okay, ) = True               SG : JB     =      1.8 : 1.0
+            contains(, ) = True               SG : JB     =      1.8 : 1.0
+         contains(lah, ) = True               SG : JB     =      1.8 : 1.0
+           contains(2, ) = True               JB : SG     =      1.6 : 1.0
+          contains(go, ) = True               JB : SG     =      1.6 : 1.0
+        contains(, good) = True               JB : SG     =      1.6 : 1.0
+     contains(ya, allah) = True               JB : SG     =      1.6 : 1.0
+        contains(, keep) = True               JB : SG     =      1.6 : 1.0
+        contains(face, ) = True               JB : SG     =      1.6 : 1.0
+        contains(, hope) = True               JB : SG     =      1.6 : 1.0
+    contains(dont, make) = True               JB : SG     =      1.6 : 1.0
+        contains(babe, ) = True               JB : SG     =      1.6 : 1.0
+        contains(back, ) = True               JB : SG     =      1.6 : 1.0
+    contains(im, strong) = True               JB : SG     =      1.6 : 1.0
+  contains(beat, napoli) = True               JB : SG     =      1.6 : 1.0
+    contains(dont, tell) = True               JB : SG     =      1.6 : 1.0
+        contains(want, ) = True               JB : SG     =      1.6 : 1.0
+         contains(bad, ) = True               JB : SG     =      1.6 : 1.0
+        contains(guys, ) = True               JB : SG     =      1.6 : 1.0
+   contains(cant, sleep) = True               JB : SG     =      1.6 : 1.0
+    contains(feel, like) = True               JB : SG     =      1.6 : 1.0
+         contains(get, ) = True               JB : SG     =      1.6 : 1.0
+          contains(je, ) = True               JB : SG     =      1.6 : 1.0
+        contains(well, ) = True               JB : SG     =      1.6 : 1.0
+       contains(scary, ) = True               JB : SG     =      1.6 : 1.0
+  contains(want, things) = True               JB : SG     =      1.6 : 1.0
+None
+Accuracy:  0.864130434783
+
+
 
